@@ -29,6 +29,6 @@ def comb(L):
                 # check if the indexes are not  
                 # same  
                 if (m!=n and n!=m ):  
-                    print(L[m], L[n])  
+                    print(L[m], L[n], ",", "" end="")  
                       
 comb([])  
